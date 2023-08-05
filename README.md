@@ -65,7 +65,7 @@ Structure your report by using the _report_template.md_ that _Starter_Code.zip_ 
 ## Resources
 ### Bootcamp References -- update later
 Module 20 Instructions
- 
+
 starter_code folder
 * credit_risk_classification.ipynb
 
