@@ -35,9 +35,7 @@ Use your knowledge of logistic regression to complete the following steps:
 2) Save the predictions for the testing data labels by using the testing feature data (_X_test_) and the fitted model.
 
 3) Evaluate the model’s performance by doing the following:
-
   * Generate a confusion matrix.
-
   * Print the classification report.
 
 4) Answer the following question: How well does the logistic regression model predict both the __0__ (healthy loan) and __1__ (high-risk loan) labels?
