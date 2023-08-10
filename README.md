@@ -88,4 +88,6 @@ _(where possible will provide link to website)_
 * [matplotlib documentation](https://matplotlib.org/stable/index.html)
 * [hvplot documentation](https://hvplot.holoviz.org/reference/geopandas/points.html)
 * [scipy.stats documentation](https://docs.scipy.org/doc/scipy/reference/stats.html)
+* [scikit learn documentation]
+* [Goggle]
 
