@@ -22,10 +22,9 @@ Getting started, I will open the notebook from the starter code __`credit_risk_c
 
 2) Create the _labels_ set (`y`) from the “loan_status” column, and then create the _features_ (`X`) DataFrame from the remaining columns.
 
-  * __NOTE:__ A value of 0 in the “loan_status” column means that the loan is healthy. A value of 1 means that the loan has a high risk of defaulting.
+      * __NOTE:__ A value of __0__ in the “loan_status” column means that the loan is healthy. A value of __1__ means that the loan has a high risk of defaulting.
 
 3) Split the data into training and testing datasets by using `train_test_split`.
-
 
 
 ### Part-2: Create a Logistic Regression Model with the Original Data
@@ -36,17 +35,17 @@ For the part of the challenge, I will use what I've about logistic regression mo
 2) Save the predictions for the testing data labels by using the testing feature data (`X_test`) and the fitted model.
 
 3) Evaluate the model’s performance by doing the following:
-  * Generate a confusion matrix.
-  * Print the classification report.
+      * Generate a confusion matrix.
+      * Print the classification report.
 
 4) Answer the following question: How well does the logistic regression model predict both the __0__ (healthy loan) and __1__ (high-risk loan) labels?
 
 _Confusion Matrix Display_
 
-![Confusion Matrix Display]() placeholder
+![Confusion Matrix Display](https://github.com/SteveTuttle/credit-risk-classification/blob/main/Output/cm_display.png)
 
 ### Part-3: Write a Credit Risk Analysis Report
-Lastly, the instructions require that I will write a credit risk analysis report which includes a summary and analysis of the performance of the machine learning models used in this challenge. This report will be written in as a _README.md_ file included with this challenge GitHub repository. The `report_template.md` calls for the results of two models and a comparison between them, the model from the challenge (_Logistic Regression_) will be Model 1. For Model 2 I will add a Random Forest model to the `credit_risk_classification_sdt.ipynb` notebook solely for the comparison. I will structure the report using the `report_template.md` that the original `Starter_Code.zip` included, while ensuring that it contains the following:
+Lastly, the instructions require that I will write a credit risk analysis report which includes a summary and analysis of the performance of the machine learning models used in this challenge. This report will be written in as a _README.md_ file included with this challenge GitHub repository. The `report_template.md` calls for the results of two models and a comparison between them, the model from the challenge (_Logistic Regression_) will be __Model 1__. For __Model 2__ I will add a Random Forest model to the `credit_risk_classification_sdt.ipynb` notebook solely for the comparison. I will structure the report using the `report_template.md` that the original `Starter_Code.zip` included, while ensuring that it contains the following:
 
 1) __An Overview of the Analysis:__ Explain the purpose of this analysis.
 
@@ -54,9 +53,9 @@ Lastly, the instructions require that I will write a credit risk analysis report
 
 3) __A Summary:__ Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
 
-_Click the link below  to view the report_:
+_Click the link below  to view the final report_:
 
-[Credit Risk Analysis Report]()
+[Credit Risk Analysis Report](https://github.com/SteveTuttle/credit-risk-classification/blob/main/Output/credit_risk_analysis_report.md)
 
 
 ## Resources
@@ -81,7 +80,6 @@ Resources
 * Lisa Shemanciik
 
 ### External References
-_(where possible will provide link to website)_
 * [pandas documentation](https://pandas.pydata.org/docs/reference/general_functions.html)
 * [matplotlib documentation](https://matplotlib.org/stable/index.html)
 * [scikit-learn documentation](https://scikit-learn.org/stable/user_guide.html)
