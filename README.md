@@ -13,9 +13,10 @@ This challenge is broken down into three subsections:
 * Create a Logistic Regression Model with the Original Data
 * Write a Credit Risk Analysis Report
 
+    * Outside of the primary deliverable for this challenge which called the for the creation a Logistic Regression model, the Credit Risk Analysis Report asks to see and compare two models. I am adding a Random Forest for comparison in the notebook as well.
 
 ### Part-1: Split the Data into Training and Testing Sets
-Getting started, I will open the notebook from the starter code __credit_risk_classification.ipynb__ then save a new copy as __credit_risk_classification_sdt.ipynb__ and that will be the file I use to complete the following steps per challenge instructions:
+Getting started, I will open the notebook from the starter code __`credit_risk_classification.ipynb`__ then save a new copy as __`credit_risk_classification_sdt.ipynb`__ and that will be the file I use to complete the following steps per challenge instructions:
 
 1) Read the `lending_data.csv` data from the Resources folder into a Pandas DataFrame.
 
@@ -45,7 +46,7 @@ _Confusion Matrix Display_
 ![Confusion Matrix Display]() placeholder
 
 ### Part-3: Write a Credit Risk Analysis Report
-Lastly, the instructions require that I will write a credit risk analysis report which includes a summary and analysis of the performance of the machine learning models used in this challenge. This report will be written in as a _README.md_ file included with this challenge GitHub repository. I will structure the report using the `report_template.md` that the original _Starter_Code.zip_ included, while ensuring that it contains the following:
+Lastly, the instructions require that I will write a credit risk analysis report which includes a summary and analysis of the performance of the machine learning models used in this challenge. This report will be written in as a _README.md_ file included with this challenge GitHub repository. The `report_template.md` calls for the results of two models and a comparison between them, the model from the challenge (_Logistic Regression_) will be Model 1. For Model 2 I will add a Random Forest model to the `credit_risk_classification_sdt.ipynb` notebook solely for the comparison. I will structure the report using the `report_template.md` that the original `Starter_Code.zip` included, while ensuring that it contains the following:
 
 1) __An Overview of the Analysis:__ Explain the purpose of this analysis.
 
@@ -53,15 +54,18 @@ Lastly, the instructions require that I will write a credit risk analysis report
 
 3) __A Summary:__ Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
 
+_Click the link below  to view the report_:
+
+[Credit Risk Analysis Report]()
 
 
 ## Resources
-### Bootcamp References -- update later
+### Bootcamp References
 [Module 20 Instructions](https://courses.bootcampspot.com/courses/3285/assignments/52247?module_item_id=937508)
 
 Module 20 Class Activities
 
-starter_code folder
+Starter_Sode folder
 * credit_risk_classification.ipynb
 
 _report example_:
@@ -80,8 +84,7 @@ Resources
 _(where possible will provide link to website)_
 * [pandas documentation](https://pandas.pydata.org/docs/reference/general_functions.html)
 * [matplotlib documentation](https://matplotlib.org/stable/index.html)
-* [hvplot documentation](https://hvplot.holoviz.org/reference/geopandas/points.html)
 * [scikit-learn documentation](https://scikit-learn.org/stable/user_guide.html)
-* [Imbalanced-learn documentation]
 * [Google](https://www.google.com)
+* [YouTube](https://www.youtube.com)
 
