@@ -1,4 +1,4 @@
-# credit-risk-classification
+# credit-risk-analysis-toolkit
 UNC_data_bootcamp_module_20
 
 ## Challenge Description
